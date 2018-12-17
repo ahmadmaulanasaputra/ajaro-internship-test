@@ -1,0 +1,17 @@
+.animasi-teks {
+  font-size: 20px;
+  font-family:cataneo bt;
+  font-weight:lighter;
+  width: 100%;
+  white-space:nowrap;
+  overflow:hidden;
+  animation: animasi-ketik 5s steps(500)infinite;
+}
+
+@keyframes animasi-ketik{
+  from { width: 0; }
+}
+
+@-webkit-keyframes animasi-ketik{
+  from { width: 0; }
+}
